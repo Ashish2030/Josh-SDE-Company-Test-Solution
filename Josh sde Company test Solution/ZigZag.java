@@ -91,14 +91,14 @@ class ZigZag {
 	
 		LinkedList llist = new LinkedList(); 
 
-		llist.head = new Node(1); 
+		head = new Node(1); 
 		Node second = new Node(2); 
 		Node third = new Node(3); 
 		Node fourth=new Node(4);
 		Node five=new Node(5);
 		Node six=new Node(6);
 		//	Node six1=new Node(7);
-		llist.head.next = second; 
+		head.next = second; 
 		second.next = third;
 		third.next=fourth;
 		fourth.next=five;
